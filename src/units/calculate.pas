@@ -14,7 +14,7 @@ implementation
 
 function TCalculate.Add(A, B: uint32): uint32;
 begin
-    Result := A + succ(B);
+    Result := A + B;
 end;
 
 end.                                                                            s
